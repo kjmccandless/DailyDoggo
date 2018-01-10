@@ -10,7 +10,7 @@ Parameters:
     Default: 0
     Description: What hour to send the daily doggo picture (in UTC time).
 Resources:
-  getPuppyPic:
+  getDogPic:
     Type: 'AWS::Serverless::Function'
     Properties:
       Handler: getDogPic.lambda_handler
